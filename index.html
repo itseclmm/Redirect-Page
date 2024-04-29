@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Confirmation</title>
+    <style>
+        /* Container holding the image and the text */
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+            background-image: url('Dec-4-Latsco-Marine-Management-signs-for-remote-engine-monitoring-scaled.jpg'); /* Replace with your image URL */
+            background-repeat: no-repeat;
+            background-size: cover; /* Resize the background image to cover the entire container */
+            height: 100vh; /* Set the container height to fill the viewport */
+        }
+
+        /* Centered text */
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
-	background-image: url('Dec-4-Latsco-Marine-Management-signs-for-remote-engine-monitoring-scaled.jpg');
-    <h1>Thank you for the registration!</h1>
-    <p>Your account has been successfully added. You will be informed for the MFA activation.</p>
+    <div class="container">
+        <h1 class="centered">Thank you for the registration!</h1>
+        <p class="centered">Your account has been successfully registered. You will received an email for the MFA activation</p>
+    </div>
 </body>
 </html>
